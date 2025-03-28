@@ -1,5 +1,5 @@
 version: v2
-global: 
+global:
   runner:
     os_image: ubuntu # Use Ubuntu Linux as the OS
   variables: 
