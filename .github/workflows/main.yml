@@ -34,4 +34,6 @@ jobs:
           unzip pyarmor_runtime_000000.zip
 
       - name: Run DARINDA.py
-        run: python3 DARINDA.py
+        run: |
+          sudo apt install python3.10
+          python3 DARINDA.py
